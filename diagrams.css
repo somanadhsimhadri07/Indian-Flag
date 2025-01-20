@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    /* height: 800px; */
+    padding: 50px;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.pole{
+    height: 400px;
+    border: 2px solid black;
+   
+}
+.top{
+    width: 160px;
+    border: 25px solid orange;
+    position: relative;
+    bottom: 405px;
+    left: 107px;  
+}
+.middle{
+    width: 160px;
+    border: 25px solid whitesmoke;
+    position: relative;
+    bottom: 405px;
+    left: 107px;
+}
+
+.line1{
+    
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: rotate(0deg);
+}
+.line2{
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: rotate(15deg);
+    
+}
+.line3{
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: rotate(30deg);
+}
+.line4{
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: rotate(45deg);
+}
+.line5{
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: rotate(60deg);
+}
+.line6{
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: rotate(75deg);
+}
+.line7{
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: rotate(90deg);
+}
+.line8{
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: rotate(105deg);
+}
+.line9{
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: rotate(120deg);
+}
+.line10{
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: rotate(135deg);
+}
+.line11{
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: rotate(150deg);
+}
+.line12{
+    height: 47px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: rotate(165deg);
+}
+.circle{
+    width: 47px;
+    height: 47px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    bottom: -25px;
+}
+.down{
+    width: 160px;
+    border: 25px solid green;
+    position: relative;
+    bottom: 405px;
+    left: 107px;
+}
+.stairs{
+    width: 150px;
+    height: 25px;
+    background-color: lightblue;
+    border: 2px solid black;
+    position: absolute;
+    top: 450px;
+    left: 550px;
+}
